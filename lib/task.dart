@@ -58,7 +58,7 @@ class _TaskState extends State<Task> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            'Personal',
+                            'GST',
                             style: TextStyle(
                                 fontSize: 17,
                                 color: CustomColors.TextHeaderGrey,
@@ -108,7 +108,7 @@ class _TaskState extends State<Task> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            'Work',
+                            'Income Tax',
                             style: TextStyle(
                                 fontSize: 17,
                                 color: CustomColors.TextHeaderGrey,
@@ -208,7 +208,7 @@ class _TaskState extends State<Task> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            'Shopping',
+                            'TDS&TCS',
                             style: TextStyle(
                                 fontSize: 17,
                                 color: CustomColors.TextHeaderGrey,
@@ -258,7 +258,7 @@ class _TaskState extends State<Task> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            'Party',
+                            'MCA',
                             style: TextStyle(
                                 fontSize: 17,
                                 color: CustomColors.TextHeaderGrey,
@@ -308,7 +308,7 @@ class _TaskState extends State<Task> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            'Study',
+                            'Others',
                             style: TextStyle(
                                 fontSize: 17,
                                 color: CustomColors.TextHeaderGrey,

@@ -48,7 +48,7 @@ class _OnboardingState extends State<Onboarding> {
                     ),
                     SizedBox(height: 15),
                     Text(
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque erat in blandit luctus.',
+                      'Start Yours Now.',
                       style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.w400,
