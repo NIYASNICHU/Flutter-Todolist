@@ -259,6 +259,8 @@ class Modal {
                                 RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0),
                             ),
+                            )
+                            ),
                             child: Container(
                             constraints: const BoxConstraints(minWidth: 120.0, minHeight: 40.0),
                               decoration: const BoxDecoration(
@@ -336,7 +338,7 @@ class Modal {
                             ),
                           ),
                           SizedBox(height: 25),
-                          RaisedButton(
+                          ElevatedButton(
                             onPressed: () {
                               Navigator.pushReplacement(
                                 context,
@@ -344,11 +346,14 @@ class Modal {
                               );
                               // Navigator.pop(context);
                             },
-                            textColor: Colors.white,
+                            style: ElevatedButton.styleFrom(
+
+                            primary: Colors.white,
                             padding: const EdgeInsets.all(0.0),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0),
                             ),
+        ),
                             child: Container(
                               width: MediaQuery.of(context).size.width / 1.2,
                               height: 60,
