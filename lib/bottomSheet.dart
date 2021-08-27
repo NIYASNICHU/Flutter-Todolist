@@ -246,19 +246,21 @@ class Modal {
                             ),
                           ),
                           SizedBox(height: 10),
-                          RaisedButton(
+                          ElevatedButton(
                             onPressed: () {
                               subTasks.add('New subtask');
                               //print(subTasks.toString());
                             },
-                            textColor: Colors.white,
-                            padding: const EdgeInsets.all(0.0),
-                            shape: RoundedRectangleBorder(
+                            style: ButtonStyle
+                               (backgroundColor: MaterialStateProperty.all(Colors.red),
+                               foregroundColor: MaterialStateProperty.all(Colors.white),
+                            padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.all(0.0)),
+                            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                                RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0),
                             ),
                             child: Container(
-                              width: 120,
-                              height: 40,
+                            constraints: const BoxConstraints(minWidth: 120.0, minHeight: 40.0),
                               decoration: const BoxDecoration(
                                 gradient: LinearGradient(
                                   colors: <Color>[
